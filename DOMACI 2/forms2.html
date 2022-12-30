@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Order Form</h1> 
+  <form action="/">   
+    <label for="name">Your Name:</label>
+    <input type="text" placeholder="Your name" value="" name="name" id="name">
+    <br>
+    <br>
+    <label for="mail">Your E-mail:</label>
+    <input type="Email" placeholder="Email" value="" name="email" id="mail">
+    <br>
+    <br>
+    <label>Choose your product:</label>
+    <input type="radio" checked name="product" value=""><label>Product1</label>
+    <input type="radio"  name="product" value="" ><label>Product2</label>
+    <input type="radio"  name="product" value=""><label>Product3</label>
+    <br>
+    <br>
+    <label for="date">Delivery Date:</label>
+    <input type="date" name="date" value="" id="date">
+    <br>
+    <br>
+    <label for="number">Quantity</label>
+    <input type="number" name="number" min="0" max="5" placeholder="3" value="" id="number">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <input type="text" placeholder="Street Address" name="address" value="" id="address">
+    <br>
+    <br>
+    <label for="city" >City:</label>
+    <select name="city">
+        <option value="City1">City1</option>
+        <option value="City2">City2</option>
+        <option value="City3">City3</option>
+    </select>
+    <br>
+    <br>
+    <label for="region" >Region:</label>
+    <select name="region">
+        <option value="Region1" selected>Region1</option>
+        <option value="Region2">Region2</option>
+        <option value="Region3">Region3</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" name="Notify me by email" checked id="Notify me by email">
+    <label for="email">Notify me by email</label>
+    <br>
+    <br>
+    <textarea placeholder="Your comment here" rows="10" cols="24"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Order">
+  </form>
+</body>
+</html>
